@@ -2,7 +2,7 @@
     "openapi": "3.0.1",
     "info": {
         "title": "catalog",
-        "description": "catalog",
+        "description": "catalog new test",
         "version": "0.1"
     },
     "servers": [
