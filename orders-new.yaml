@@ -4,7 +4,7 @@ info:
   version: '1.0.0'
   description: Orders API
   contact:
-    name: Sample new ordesr Contact data
+    name: Sample new orders Contact data
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
