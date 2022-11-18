@@ -77,8 +77,3 @@ components:
         - customerLastName
         - email
         - emailVerified
-x-mazinger:
-  gitHubRepo:
-    msg: 'global x-maxinger msg'
-    baseUrl: 'https://github.com/gkulkarni32/acme'
-    subPath: 'orders'
