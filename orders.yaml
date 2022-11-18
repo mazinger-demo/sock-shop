@@ -1,8 +1,12 @@
 openapi: 3.0.1
 info:
-  title: test-17nov-2 Orders API for Mazinger
+  title: test-18nov-1 Orders API for Mazinger
   description: Orders Sock Shop API
   version: '1.0'
+  contact:
+    name: Sample orders Contact data
+    url: 'https://developer.mazinger.com'
+    email: developer@mazinger.com
 servers:
 - url: http://orders.sock-shop
 paths:
