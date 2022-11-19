@@ -8,7 +8,7 @@ info:
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://localhost:3000' 
 paths:
   '/orders/{orderNumber}':
     parameters:
@@ -19,7 +19,7 @@ paths:
         required: true
         description: Order Number.
     get:
-      summary: Get Order Info by Order Number
+      summary: Get Order Info by Order Number    
       responses:
         '200':
           description: Order Found
