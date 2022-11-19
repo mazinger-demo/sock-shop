@@ -14,17 +14,17 @@ tags:
     description: api tag for get path  
 paths:
   '/orders/{orderNumber}':
-    parameters:
+    get:
+      summary: Get Order Info by Order Number
+      tags:
+      - orders-new
+      parameters:
       - schema:
           type: string
         name: orderNumber
         in: path
         required: true
         description: Order Number.
-    get:
-      summary: Get Order Info by Order Number
-      tags:
-      - orders-new      
       responses:
         '200':
           description: Order Found
