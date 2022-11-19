@@ -23,6 +23,7 @@ paths:
         description: Order Number.
     get:
       summary: Get Order Info by Order Number
+      description: Order Number
       tags:
       - orders-new
       responses:
