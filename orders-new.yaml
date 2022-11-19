@@ -8,7 +8,7 @@ info:
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
-  - url: 'https://localhost:3000'
+  - url: 'http://localhost:3000'
 tags:
   - name: orders-new
     description: api tag for get path
@@ -23,7 +23,6 @@ paths:
         description: Order Number.
     get:
       summary: Get Order Info by Order Number
-      description: Order Number
       tags:
       - orders-new
       responses:
@@ -53,15 +52,17 @@ components:
     Order:
       title: Order
       type: object
-      description: ''
+      description: 'test'
       properties:
         number:
           type: string
           description: Unique identifier for the given order.
         customerName:
           type: string
+          description: Unique name for the given customer.
         customerLastName:
           type: string
+          description: Unique lastname for the given customer.
         email:
           type: string
           format: email
