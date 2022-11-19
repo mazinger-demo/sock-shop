@@ -20,8 +20,6 @@ paths:
         description: Order Number.
     get:
       summary: Get Order Info by Order Number
-      tags:
-      - orders-new
       responses:
         '200':
           description: Order Found
