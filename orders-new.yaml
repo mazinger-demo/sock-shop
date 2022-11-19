@@ -9,9 +9,6 @@ info:
     email: developer@mazinger.com
 servers:
   - url: 'http://localhost:3000'
-tags:
-  - name: orders-new
-    description: api tag for get path
 paths:
   '/orders/{orderNumber}':
     parameters:
