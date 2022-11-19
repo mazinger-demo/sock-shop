@@ -66,10 +66,12 @@ components:
         email:
           type: string
           format: email
+          description: email for the given customer.
         dateOfBirth:
           type: string
           format: date
           example: '1997-10-31'
+          description: dob for the given customer.
         emailVerified:
           type: boolean
           description: Set to true if the user's email has been verified.
