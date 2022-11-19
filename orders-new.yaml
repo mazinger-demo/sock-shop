@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Orders
   version: '1.0.0'
-  description: Orders API
+  description: Orders API description
   contact:
     name: Sample new orders Contact data
     url: 'https://developer.mazinger.com'
