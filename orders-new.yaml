@@ -3,10 +3,6 @@ info:
   title: Orders
   version: '1.0.0'
   description: Orders API description
-  contact:
-    name: Sample new orders Contact data
-    url: 'https://developer.mazinger.com'
-    email: developer@mazinger.com
 servers:
   - url: 'http://localhost:3000'
 paths:
