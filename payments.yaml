@@ -8,7 +8,7 @@ info:
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
-  - url: http://payment.sock-shop
+  - url: https://payment.sock-shop
 paths:
   /paymentAuth:
     post:
