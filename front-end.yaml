@@ -5,7 +5,7 @@ info:
     response time is 0.019 seconds
   version: '1.0'
 servers:
-- url: http://front-end.sock-shop
+- url: https://front-end.sock-shop
 paths:
   "/":
     get:
