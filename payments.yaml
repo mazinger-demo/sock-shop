@@ -3,6 +3,10 @@ info:
   title: Payments API for Mazinger
   description: Payments Sock Shop API uodate-1
   version: '1.0'
+  contact:
+    name: Sample new payments Contact data
+    url: 'https://developer.mazinger.com'
+    email: developer@mazinger.com
 servers:
   - url: http://payment.sock-shop
 paths:
