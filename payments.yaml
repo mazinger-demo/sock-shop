@@ -5,7 +5,7 @@ info:
   version: '1.0'
   contact:
     name: Sample new payments Contact data
-    url: 'https://developer.mazinger.com'
+    url: 'http://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
   - url: https://payment.sock-shop
