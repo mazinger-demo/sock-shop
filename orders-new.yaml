@@ -13,7 +13,7 @@ tags:
   - name: orders-new
     description: api tag for get path  
 paths:
-  '/test/orders/{orderNumber}':
+  '/orders-someting/{orderNumber}':
     get:
       summary: Get Order Info by Order Number
       tags:
