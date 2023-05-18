@@ -8,9 +8,9 @@ info:
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 servers:
-- url: http://orders.sock-shop
+- url: https://orders.sock-shop
 paths:
-  "/orders":
+  "/orders-test":
     post:
       tags:
       - orders
